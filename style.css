@@ -1,0 +1,22 @@
+*{margin:0; padding:0;}
+
+.background{
+    background-image: url(img.jpg);
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    filter:blur(10px);
+    position: relative;
+}
+
+.smallBackground{
+    background-image: url(img.jpg);
+    background-size: cover;
+    width:400px;
+    height:200px;
+    background-position: center center;
+    position: absolute;
+    top:200px; left: 455px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px #00000060;
+}
